@@ -1,0 +1,19 @@
+body {
+  background-color: azure;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nadpis {
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+img {
+  width: 600px;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 25px;
+}
