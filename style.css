@@ -17,3 +17,16 @@ img {
 p {
   font-size: 25px;
 }
+
+.pali_foto {
+  width: 200px;
+}
+
+.text {
+  padding-top: 25px;
+}
+
+.home {
+  width: 20px;
+  justify-self: right;
+}
