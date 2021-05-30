@@ -84,19 +84,20 @@ menu {
   background-color: rgb(222, 245, 245);
 }
 
+.foto {
+  margin-bottom: 20px;
+  display: block;
+}
+
 .pali_foto {
   max-width: 200px;
   margin-right: 20px;
-  margin-bottom: 20px;
-  display: block;
 }
 
 .tereza-foto {
   max-width: 200px;
   border-radius: 50%;
   margin-left: 20px;
-  margin-bottom: 20px;
-  display: block;
 }
 
 .medailonek {
