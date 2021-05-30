@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html lang="cs">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Náš projekt</title>
   </head>
   <body>
-    <div class="nadpis">
-      <h1>Zabal si</h1>
-      <h3>Cestovatelská aplikace na plánování</h3>
+    <!--menu-->
+    <menu>
+      <ul class="menu" id='domu'>
+        <li><a href="#domu">Domů</a></li>
+        <li><a href="#projekt">Projekt</a></li>
+        <li><a href="#onas">O nás</a></li>
+      </div>
+    </menu>
+    <!--hlavička-->
+    <header>
+      <div class="nadpis">
+        <h1>Zabal si</h1>
+        <h3>Cestovatelská aplikace na plánování</h3>
+      </div>
+    </header>
+
+    <!--zabal si-->
+    <section class="projekt" id='projekt'>
+      <div class='mapa'>
+        <img class='mapa-svet' src="img/mapa2.png" alt='Mapa světa'/>
+      </div>
+      <div class='popis'>      
+        <p>
+            Aplikace slouží k tomu, aby si uživatel mohl pomocí šablon pohodlně
+            připravit seznam s věcmi, které si s sebou chce vzít na cestu.
+        </p>
+        <p>
+            Následně si všechny položky může odškrtávat podle toho, zda je již
+            fyzicky zabalil, či nikoliv.
+        </p>
+      </div>
+    </section>    
+
+
+    <!--o nás-->
+    <section class="about-us" id='onas'>
+      <h2>O nás</h2>
+      <div class='my'>
+        <div class='pavlina'>
+          <a href="pavlina.html">
+            <img class="pali_foto" src="img/obrazek-1.png" alt='pavlina'/>Pavllína
+          </a>
+          
+        </div>
+        <div class='tereza'>
+          <a href='tereza.html'><img class='tereza-foto' src='img/Tprezentace.jpg' alt='tereza'>Tereza </a>
+          
+        </div>
+      </div>
+    </section>
+    <!--Patička stránky-->
+    <div class='position'>
+      <footer class="paticka">
+      <p>© 2021, Zabal si</p>
+    </footer>
     </div>
-    <img src="img/mapa2.png" />
-    <p>
-      Aplikace slouží k tomu, aby si uživatel mohl pomocí šablon pohodlně
-      připravit seznam s věcmi, které si s sebou chce vzít na cestu.
-    </p>
-    <p>
-      Následně si všechny položky může odškrtávat podle toho, zda je již fyzicky
-      zabalil, či nikoliv.
-    </p>
-    <a href="pavlina.html">
-      <img class="pali_foto" src="img/obrazek-1.png" />
-    </a>
+    
   </body>
 </html>
