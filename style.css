@@ -109,6 +109,10 @@ menu {
   display: flex;
 }
 
+.git {
+  max-width: 150px;
+}
+
 .paticka {
   background-color: rgb(112, 194, 194);
   font-size: 20px;
